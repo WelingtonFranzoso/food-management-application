@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:6532/food
+    username: franzoso
+    password: password
+
+api:
+  security:
+      token:
+        secret: "${JWT_SECRET:my-secret-key}"
