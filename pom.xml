@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.franzoso</groupId>
-	<artifactId>menu-flyway-springsecurity</artifactId>
+	<artifactId>food-management-application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>menu</name>
-	<description>Digital menu with Flyway and Spring Security</description>
+	<description>Digital menu using Flyway and Spring Security</description>
 	<url/>
 	<licenses>
 		<license/>
