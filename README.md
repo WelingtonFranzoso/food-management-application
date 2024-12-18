@@ -21,7 +21,7 @@ Este projeto é uma aplicação backend desenvolvida com Spring Boot e Spring Se
 
 # Como executar o projeto
 ## Back end
-###Pré-requisitos: 
+### Pré-requisitos: 
 - Java 17 ou superior
 - Docker (para executar o banco de dados PostgreSQL em um container)
 - Maven (para construção do projeto)
