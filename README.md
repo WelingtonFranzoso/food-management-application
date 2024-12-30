@@ -6,7 +6,7 @@
 Este projeto é uma aplicação backend desenvolvida com Spring Boot e Spring Security, que permite a criação e o gerenciamento de tipos de comida. A aplicação utiliza Flyway para gerenciamento de migrações de banco de dados, JWT para autenticação e autorização, e PostgreSQL como banco de dados, que é executado dentro de um container Docker.
 
 # Funcionalidades
-- Cadastro e login de usuários: Os usuários podem se registrar e fazer login utilizando JWT.
+- Cadastro e login de usuários: Os usuários podem se registrar e fazer login utilizando JWT para gerar tokens.
 - Criação de tipos de comida: A aplicação permite o registro e salvamento de diferentes tipos de comida no banco de dados.
 - Controle de acesso: O acesso às funcionalidades é controlado por roles (papéis) de usuário, sendo possível definir permissões para USER e ADMIN.
 - Migrações de banco de dados: Utiliza o Flyway para garantir que as tabelas necessárias (food e user_tb) sejam criadas automaticamente se não existirem no banco de dados.
